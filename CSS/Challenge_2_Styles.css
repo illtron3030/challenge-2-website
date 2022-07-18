@@ -1,123 +1,99 @@
+/* Float, Flexbox, Grid */
 
-
-
-
-
-
-
-
-
-
-#nav {
-    display:block;
-    justify-content: center;
-}
-
-#body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 50px;
-    line-height: 1.5em;
-}
-
-=
-header {
+nav {
+    /* border: 1px solid red; */
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    flx-wrap: wrap;
-    height: 100px;
-
-}
-
-.h2 {
-    display: flex;
-    display: justify-content;
-
-}
-#about-me {
     padding: 20px;
-    border-left: 15px darkgray solid;
+   
+  }
+  
+  ul {
+    display: flex;
+    
+  }
+  
+  ul li {
+    margin-left: 20px;
+    list-style-type: none;
+  }
+  
+  .banner {
+    /* border: 1px solid blue; */
+    display: flex;
+    height: 150px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url("https://www.phaidon.com/resource/cptamerica2.jpg");
+    background-size: cover;
+  }
+  
+  .banner p {
+    background: blue;
+    padding: 10px;
+    width: 200px;
+    height: 20px;
+    color: #FFF;
+  }
+  
+  .about, .projects {
+    /* border: 1px solid red; */
+    display: flex;
     justify-content: space-around;
-}
-
-#subheading_2 {
+    padding: 20px;
+  }
+  
+  .about h2, .projects h2 {
+    width: 15%;
+    border-right: 4px solid red;
+    padding-right: 4px solid red;
+  }
+  
+  .about div, .projects .list-projects {
+    width: 80%;
+  }
+  
+  .list-projects {
     display: flex;
-    justify-content: space-between;
-    height: 250px;
-}
-
-#portfolio {
-    background: black;
-    color: whitesmoke;
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    width: 300px;
-    height: 100px
-    padding: 15px;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .list-projects .project-item {
+    width: 45%;
+    border: 1px solid blue;
+    height: 200px;
     margin: 10px;
-    font-weight: bold;
-    width: 20%;
-    padding: 15px;
-    border: 10px gray solid;
-    text-decoration: underline;
-}
-
-footer {
-    display: flex;
-    justify-content: end;
-}
-
-footer nav li {
-    display: flex;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  }
+  
+  .list-projects .project-item:first-child {
+    width: 100%;
+  }
+  
+  .project-detail {
+    margin-top: 70px;
+    border: 1px solid green;
+    border-left: none;
+    text-align: center;
+    width: 150px;
+    height: 90px;
+  }
+  
+  .footer {
+    display: flex
+    justify-content: center
+    padding: 20 px
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
