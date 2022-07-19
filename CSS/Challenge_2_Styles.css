@@ -1,11 +1,12 @@
-/* Float, Flexbox, Grid */
 
 nav {
     /* border: 1px solid red; */
+    background-color: grey;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    text-decoration: underline;
    
   }
   
@@ -20,7 +21,7 @@ nav {
   }
   
   .banner {
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     display: flex;
     height: 150px;
     justify-content: flex-end;
@@ -46,8 +47,8 @@ nav {
   
   .about h2, .projects h2 {
     width: 15%;
-    border-right: 4px solid red;
-    padding-right: 4px solid red;
+    border-right: 4px solid gray;
+    padding-right: 4px solid gray;
   }
   
   .about div, .projects .list-projects {
@@ -62,7 +63,8 @@ nav {
   
   .list-projects .project-item {
     width: 45%;
-    border: 1px solid blue;
+    background-color: red;
+    border: 5px solid blue;
     height: 200px;
     margin: 10px;
   }
@@ -73,27 +75,10 @@ nav {
   
   .project-detail {
     margin-top: 70px;
-    border: 1px solid green;
+    border: 3px solid blue;
     border-left: none;
     text-align: center;
     width: 150px;
     height: 90px;
   }
-  
-  .footer {
-    display: flex
-    justify-content: center
-    padding: 20 px
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
